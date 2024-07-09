@@ -1,0 +1,8 @@
+MPD_districts_shapefile: https://data.memphistn.gov/resource/53cx-qhvm.geojson
+MPD_stations_shapefile: https://data.memphistn.gov/resource/9xxh-4f2m.geojson
+MPD_wards_shapefile: https://data.memphistn.gov/resource/rqqz-pj4u.geojson
+gas_prices: https://fuelinsights.gasbuddy.com/charts -> used inspect to see API call; took average for missing dates
+mpd_incidents_2024_unedited: https://data.memphistn.gov/resource/ybsi-jur4.geojson?$where=offense_date>=%272024-01-01%27&$limit=50000
+  can change offense_date/limit
+shelby_county_shapefile: https://data.memphistn.gov/resource/qw2v-bw98.geojson -> has all counties in the area
+zipcodes_shapefile: https://data.memphistn.gov/resource/98jk-gvpk.geojson
